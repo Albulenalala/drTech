@@ -53,7 +53,7 @@
                                 </td>
                                 <td style="padding:0px;margin:0px;">
                                     <p class="profile-title">Administrator</p>
-                                    <p class="profile-subtitle">admin@edoc.com</p>
+                                    <p class="profile-subtitle">admin@drTech.com</p>
                                 </td>
                             </tr>
                             <tr>

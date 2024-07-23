@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/bg01.jpg);
+    background-image: url(../img/b44.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -12,7 +12,7 @@ html, body {
   }
   
 .full-height {
-    background: rgba(26, 26, 26, 0.548);
+    background: rgba(22, 21, 21, 0.637);
     background-attachment: fixed;
     max-height: 100vh;
     height: 100vh;

@@ -34,11 +34,10 @@ This initiative facilitates online appointment requests for clients or patients 
   - View their old booking
   - Delete account
   - Edit account settings    
-
     
 | Admin Dashboard | Doctor Dashboard | Patient Dashboard |
 | -------| -------| -------|
-| Email: `admin@edoc.com` | Email: `doctor@edoc.com` |   Email: `patient@edoc.com` | 
+| Email: `admin@drTech.com` | Email: `doctor@drTech.com` |   Email: `patient@drTech.com` | 
 | Password: `123` |  Password: `123` |  Password: `123` |
 
 
@@ -55,7 +54,7 @@ This initiative facilitates online appointment requests for clients or patients 
 4. Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
 5. Create a new database naming `edoc`.
 6. Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
-7. Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
+7. Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/drTech/.
 
 
 ## Screenshots
