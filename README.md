@@ -1,10 +1,12 @@
 
 
 
-Simple web project that is made for e-channeling Using PHP,HTML & CSS.
-This initiative facilitates online appointment requests for clients or patients of medical establishments, including clinics and hospitals. This project can also help doctors to manage their appointment with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system comprises three key roles: administrator, doctor, and patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients can browse the doctor's appointment system website to find a doctor that has the specialty of their needs. Patients can review the doctor's weekly schedule, enabling them to select a suitable day and time for their appointment. Subsequently, they can submit their appointment request. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.
+This project is a simple web application for managing hospital appointments using PHP, HTML, and CSS. It facilitates online appointment requests for patients and helps doctors manage their schedules. The system includes three roles: administrator, doctor, and patient.
 
-
+Administrator: Manages the system, adds doctors with their specialties, details, and credentials.
+Doctor: Views their appointments and patient requests.
+Patient: Searches for doctors by specialty, reviews doctors' schedules, and submits appointment requests.
+Patients can find and book appointments with suitable doctors, while doctors can efficiently manage their appointment schedules.
 ## Features
 
 ### Admin
@@ -34,42 +36,11 @@ This initiative facilitates online appointment requests for clients or patients 
   - View their old booking
   - Delete account
   - Edit account settings    
-    
-| Admin Dashboard | Doctor Dashboard | Patient Dashboard |
-| -------| -------| -------|
-| Email: `admin@drTech.com` | Email: `doctor@drTech.com` |   Email: `patient@drTech.com` | 
-| Password: `123` |  Password: `123` |  Password: `123` |
 
-
- 
   
 -----------------------------------------------
+Contact: Albulenalala5@gmail.com
 
-
-# GET STARTED
-
-1. Open your XAMPP Control Panel and start Apache and MySQL.
-2. Extract the downloaded source code zip file.
-3. Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
-4. Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-5. Create a new database naming `edoc`.
-6. Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
-7. Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/drTech/.
-
-
-## Screenshots
-
-
-
-# The Project was developed using the following:
-
-Apache Version: 	`2.4.39`
-
-PHP Version: 		`7.3.5`
-
-Server Software: 	`Apache/2.4.39 (Win64) PHP/7.3.5`
-
-MySQL Version: 		`5.7.26`
 
 
 
