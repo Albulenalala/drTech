@@ -50,7 +50,7 @@ table{
 }
 
 
-.edoc-logo{
+.doc-logo{
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -58,7 +58,7 @@ table{
     animation: transitionIn-Y-over 0.5s;
 }
 
-.edoc-logo-sub{
+.doc-logo-sub{
     color: rgba(255, 255, 255, 0.733);
     font-size: 12px;
 
