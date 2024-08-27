@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jun 19, 2024 at 09:39 PM
+-- Generation Time: Jun 19, 2022 at 01:39 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.5
 
@@ -40,7 +40,8 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`aemail`, `apassword`) VALUES
-('admin@drTech.com', '123');
+('admin@email.com', '123')
+
 
 -- --------------------------------------------------------
 
@@ -91,7 +92,8 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 --
 
 INSERT INTO `doctor` (`docid`, `docemail`, `docname`, `docpassword`, `docnic`, `doctel`, `specialties`) VALUES
-(1, 'doctor@drTech.com', 'Test Doctor', '123', '000000000', '0110000000', 1);
+(1, 'doctor@email.com', 'Test Doctor', '1234', '000000000', '0110000000', 1);
+
 
 -- --------------------------------------------------------
 
@@ -117,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@drTech.com', 'Test Patient', '123', 'Albania', '0000000000', '2000-01-01', '0120000000'),
+(1, 'patient@email.com', 'Test Patient', '1234', 'Albania', '0000000000', '2000-01-01', '0120000000'),
 
 
 -- --------------------------------------------------------
@@ -245,12 +247,10 @@ CREATE TABLE IF NOT EXISTS `webuser` (
 --
 
 INSERT INTO `webuser` (`email`, `usertype`) VALUES
-('admin@drTech.com', 'a'),
-('doctor@drTech.com', 'd'),
-('patient@drTech.com', 'p'),
+('admin@email.com', 'a'),
+('doctor@email.com', 'd'),
+('patient@email.com', 'p'),
 
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
